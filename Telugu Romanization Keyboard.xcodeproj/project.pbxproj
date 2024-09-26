@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B412D87A2CA4ECD7005466EA /* telugincu.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B412D8732CA4ECD7005466EA /* telugincu.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B412D8532CA4EC18005466EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B412D83A2CA4EC15005466EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B412D8412CA4EC15005466EA;
+			remoteInfo = "Telugu Romanization Keyboard";
+		};
+		B412D85D2CA4EC18005466EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B412D83A2CA4EC15005466EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B412D8412CA4EC15005466EA;
+			remoteInfo = "Telugu Romanization Keyboard";
+		};
+		B412D8782CA4ECD7005466EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B412D83A2CA4EC15005466EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B412D8722CA4ECD7005466EA;
+			remoteInfo = telugincu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B412D87F2CA4ECD7005466EA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B412D87A2CA4ECD7005466EA /* telugincu.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B412D8422CA4EC15005466EA /* Telugu Romanization Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telugu Romanization Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B412D8522CA4EC18005466EA /* Telugu Romanization KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telugu Romanization KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B412D85C2CA4EC18005466EA /* Telugu Romanization KeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telugu Romanization KeyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B412D8732CA4ECD7005466EA /* telugincu.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = telugincu.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B412D87B2CA4ECD7005466EA /* Exceptions for "telugincu" folder in "telugincu" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B412D8722CA4ECD7005466EA /* telugincu */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B412D8442CA4EC15005466EA /* Telugu Romanization Keyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Telugu Romanization Keyboard";
+			sourceTree = "<group>";
+		};
+		B412D8552CA4EC18005466EA /* Telugu Romanization KeyboardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Telugu Romanization KeyboardTests";
+			sourceTree = "<group>";
+		};
+		B412D85F2CA4EC18005466EA /* Telugu Romanization KeyboardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Telugu Romanization KeyboardUITests";
+			sourceTree = "<group>";
+		};
+		B412D8742CA4ECD7005466EA /* telugincu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B412D87B2CA4ECD7005466EA /* Exceptions for "telugincu" folder in "telugincu" target */,
+			);
+			path = telugincu;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B412D83F2CA4EC15005466EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412D84F2CA4EC18005466EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412D8592CA4EC18005466EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412D8702CA4ECD7005466EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B412D8392CA4EC15005466EA = {
+			isa = PBXGroup;
+			children = (
+				B412D8442CA4EC15005466EA /* Telugu Romanization Keyboard */,
+				B412D8552CA4EC18005466EA /* Telugu Romanization KeyboardTests */,
+				B412D85F2CA4EC18005466EA /* Telugu Romanization KeyboardUITests */,
+				B412D8742CA4ECD7005466EA /* telugincu */,
+				B412D8432CA4EC15005466EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B412D8432CA4EC15005466EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B412D8422CA4EC15005466EA /* Telugu Romanization Keyboard.app */,
+				B412D8522CA4EC18005466EA /* Telugu Romanization KeyboardTests.xctest */,
+				B412D85C2CA4EC18005466EA /* Telugu Romanization KeyboardUITests.xctest */,
+				B412D8732CA4ECD7005466EA /* telugincu.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B412D8412CA4EC15005466EA /* Telugu Romanization Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B412D8662CA4EC18005466EA /* Build configuration list for PBXNativeTarget "Telugu Romanization Keyboard" */;
+			buildPhases = (
+				B412D83E2CA4EC15005466EA /* Sources */,
+				B412D83F2CA4EC15005466EA /* Frameworks */,
+				B412D8402CA4EC15005466EA /* Resources */,
+				B412D87F2CA4ECD7005466EA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B412D8792CA4ECD7005466EA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B412D8442CA4EC15005466EA /* Telugu Romanization Keyboard */,
+			);
+			name = "Telugu Romanization Keyboard";
+			packageProductDependencies = (
+			);
+			productName = "Telugu Romanization Keyboard";
+			productReference = B412D8422CA4EC15005466EA /* Telugu Romanization Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B412D8512CA4EC18005466EA /* Telugu Romanization KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B412D8692CA4EC18005466EA /* Build configuration list for PBXNativeTarget "Telugu Romanization KeyboardTests" */;
+			buildPhases = (
+				B412D84E2CA4EC18005466EA /* Sources */,
+				B412D84F2CA4EC18005466EA /* Frameworks */,
+				B412D8502CA4EC18005466EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B412D8542CA4EC18005466EA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B412D8552CA4EC18005466EA /* Telugu Romanization KeyboardTests */,
+			);
+			name = "Telugu Romanization KeyboardTests";
+			packageProductDependencies = (
+			);
+			productName = "Telugu Romanization KeyboardTests";
+			productReference = B412D8522CA4EC18005466EA /* Telugu Romanization KeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B412D85B2CA4EC18005466EA /* Telugu Romanization KeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B412D86C2CA4EC18005466EA /* Build configuration list for PBXNativeTarget "Telugu Romanization KeyboardUITests" */;
+			buildPhases = (
+				B412D8582CA4EC18005466EA /* Sources */,
+				B412D8592CA4EC18005466EA /* Frameworks */,
+				B412D85A2CA4EC18005466EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B412D85E2CA4EC18005466EA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B412D85F2CA4EC18005466EA /* Telugu Romanization KeyboardUITests */,
+			);
+			name = "Telugu Romanization KeyboardUITests";
+			packageProductDependencies = (
+			);
+			productName = "Telugu Romanization KeyboardUITests";
+			productReference = B412D85C2CA4EC18005466EA /* Telugu Romanization KeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B412D8722CA4ECD7005466EA /* telugincu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B412D87C2CA4ECD7005466EA /* Build configuration list for PBXNativeTarget "telugincu" */;
+			buildPhases = (
+				B412D86F2CA4ECD7005466EA /* Sources */,
+				B412D8702CA4ECD7005466EA /* Frameworks */,
+				B412D8712CA4ECD7005466EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B412D8742CA4ECD7005466EA /* telugincu */,
+			);
+			name = telugincu;
+			packageProductDependencies = (
+			);
+			productName = telugincu;
+			productReference = B412D8732CA4ECD7005466EA /* telugincu.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B412D83A2CA4EC15005466EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B412D8412CA4EC15005466EA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B412D8512CA4EC18005466EA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B412D8412CA4EC15005466EA;
+					};
+					B412D85B2CA4EC18005466EA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B412D8412CA4EC15005466EA;
+					};
+					B412D8722CA4ECD7005466EA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = B412D83D2CA4EC15005466EA /* Build configuration list for PBXProject "Telugu Romanization Keyboard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B412D8392CA4EC15005466EA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B412D8432CA4EC15005466EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B412D8412CA4EC15005466EA /* Telugu Romanization Keyboard */,
+				B412D8512CA4EC18005466EA /* Telugu Romanization KeyboardTests */,
+				B412D85B2CA4EC18005466EA /* Telugu Romanization KeyboardUITests */,
+				B412D8722CA4ECD7005466EA /* telugincu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B412D8402CA4EC15005466EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412D8502CA4EC18005466EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412D85A2CA4EC18005466EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412D8712CA4ECD7005466EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B412D83E2CA4EC15005466EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412D84E2CA4EC18005466EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412D8582CA4EC18005466EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B412D86F2CA4ECD7005466EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B412D8542CA4EC18005466EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B412D8412CA4EC15005466EA /* Telugu Romanization Keyboard */;
+			targetProxy = B412D8532CA4EC18005466EA /* PBXContainerItemProxy */;
+		};
+		B412D85E2CA4EC18005466EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B412D8412CA4EC15005466EA /* Telugu Romanization Keyboard */;
+			targetProxy = B412D85D2CA4EC18005466EA /* PBXContainerItemProxy */;
+		};
+		B412D8792CA4ECD7005466EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B412D8722CA4ECD7005466EA /* telugincu */;
+			targetProxy = B412D8782CA4ECD7005466EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B412D8642CA4EC18005466EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B412D8652CA4EC18005466EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B412D8672CA4EC18005466EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telugu Romanization Keyboard/Preview Content\"";
+				DEVELOPMENT_TEAM = JF7PKGAA34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TeluguVelugu.Telugu-Romanization-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B412D8682CA4EC18005466EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telugu Romanization Keyboard/Preview Content\"";
+				DEVELOPMENT_TEAM = JF7PKGAA34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TeluguVelugu.Telugu-Romanization-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B412D86A2CA4EC18005466EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF7PKGAA34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TeluguVelugu.Telugu-Romanization-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telugu Romanization Keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telugu Romanization Keyboard";
+			};
+			name = Debug;
+		};
+		B412D86B2CA4EC18005466EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF7PKGAA34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TeluguVelugu.Telugu-Romanization-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telugu Romanization Keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telugu Romanization Keyboard";
+			};
+			name = Release;
+		};
+		B412D86D2CA4EC18005466EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF7PKGAA34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TeluguVelugu.Telugu-Romanization-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Telugu Romanization Keyboard";
+			};
+			name = Debug;
+		};
+		B412D86E2CA4EC18005466EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF7PKGAA34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TeluguVelugu.Telugu-Romanization-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Telugu Romanization Keyboard";
+			};
+			name = Release;
+		};
+		B412D87D2CA4ECD7005466EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF7PKGAA34;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = telugincu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = telugincu;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TeluguVelugu.Telugu-Romanization-Keyboard.telugincu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B412D87E2CA4ECD7005466EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF7PKGAA34;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = telugincu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = telugincu;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TeluguVelugu.Telugu-Romanization-Keyboard.telugincu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B412D83D2CA4EC15005466EA /* Build configuration list for PBXProject "Telugu Romanization Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B412D8642CA4EC18005466EA /* Debug */,
+				B412D8652CA4EC18005466EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B412D8662CA4EC18005466EA /* Build configuration list for PBXNativeTarget "Telugu Romanization Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B412D8672CA4EC18005466EA /* Debug */,
+				B412D8682CA4EC18005466EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B412D8692CA4EC18005466EA /* Build configuration list for PBXNativeTarget "Telugu Romanization KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B412D86A2CA4EC18005466EA /* Debug */,
+				B412D86B2CA4EC18005466EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B412D86C2CA4EC18005466EA /* Build configuration list for PBXNativeTarget "Telugu Romanization KeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B412D86D2CA4EC18005466EA /* Debug */,
+				B412D86E2CA4EC18005466EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B412D87C2CA4ECD7005466EA /* Build configuration list for PBXNativeTarget "telugincu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B412D87D2CA4ECD7005466EA /* Debug */,
+				B412D87E2CA4ECD7005466EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B412D83A2CA4EC15005466EA /* Project object */;
+}
